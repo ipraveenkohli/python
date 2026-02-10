@@ -1,0 +1,11 @@
+Given an array of integers and a number d, the task is to rotate the array to the left by 'd' positions. In left rotation, each element moves one position to the left, and the first element moves to the end of the array.
+
+Example:
+
+Input: [1, 2, 3, 4, 5]
+d=2
+
+Output: [3, 4, 5, 1, 2]
+
+Using List Slicing
+This method rotates an array by splitting it into two parts using slicing and then joining them in reverse order.
