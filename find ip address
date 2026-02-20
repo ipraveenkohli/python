@@ -1,0 +1,19 @@
+Find the Top 3 Most Frequent IP Addresses
+
+from collections import Counter
+
+def top_ips(ip_list):
+    # Your code here
+    pass
+
+
+ips = [
+    "192.168.1.1",
+    "10.0.0.1",
+    "192.168.1.1",
+    "10.0.0.1",
+    "10.0.0.1",
+    "172.16.0.1"
+]
+
+print(top_ips(ips))
