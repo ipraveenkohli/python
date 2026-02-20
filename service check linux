@@ -1,0 +1,13 @@
+Check If a Service Is Running (Linux)
+
+
+Write a Python function that checks if a process (e.g., “nginx”) is running on a Linux system.
+
+import subprocess
+
+def is_service_running(service_name):
+    # Your code here
+    pass
+
+
+print(is_service_running("nginx"))
