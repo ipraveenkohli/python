@@ -1,0 +1,20 @@
+Given a log file, count how many times each log level appears (INFO, WARNING, ERROR).
+
+INFO Server started
+ERROR Database connection failed
+WARNING Disk space low
+ERROR Timeout occurred
+
+
+def count_log_levels(filename):
+    counts = {"INFO": 0, "WARNING": 0, "ERROR": 0}
+
+    with open(filename, "r") as file:
+        for line in file:
+            # Your logic here
+            pass
+
+    return counts
+
+
+print(count_log_levels("log.txt"))
