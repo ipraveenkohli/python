@@ -1,0 +1,15 @@
+Retry Mechanism
+Write a function that retries a task 3 times if it fails.
+import time
+
+def retry(func, retries=3):
+    # Your code here
+    pass
+
+
+def unstable_task():
+    # Simulate failure randomly
+    pass
+
+
+retry(unstable_task)
