@@ -1,0 +1,8 @@
+Read a JSON File and Extract Specific Data
+
+Given a JSON file containing deployment info, extract all services running on port 80.
+[
+  {"name": "web1", "port": 80},
+  {"name": "db1", "port": 5432},
+  {"name": "web2", "port": 80}
+]
