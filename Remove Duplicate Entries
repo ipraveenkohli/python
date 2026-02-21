@@ -1,0 +1,8 @@
+Remove Duplicate Entries From a Config List
+def remove_duplicates(servers):
+    # Your code here
+    pass
+
+
+servers = ["web1", "db1", "web1", "web2", "db1"]
+print(remove_duplicates(servers))
