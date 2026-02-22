@@ -1,0 +1,10 @@
+Write a script that checks if an API endpoint is returning HTTP 200. Retry 3 times before failing.
+
+import requests
+import time
+
+def check_api(url, retries=3):
+    # Your logic here
+    pass
+
+check_api("https://example.com/health")
