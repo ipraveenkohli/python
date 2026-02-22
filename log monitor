@@ -1,0 +1,17 @@
+Write a Python script that continuously monitors a log file and prints new lines as they are added.
+
+
+import time
+
+def follow(file_path):
+    with open(file_path, "r") as file:
+        file.seek(0, 2)  # Move to end of file
+        
+        while True:
+            line = file.readline()
+            if not line:
+                time.sleep(1)
+                continue
+            print(line.strip())
+
+follow("log.txt")
