@@ -1,0 +1,16 @@
+
+
+Given two configuration files, print the differences between them.
+  
+  def compare_files(file1, file2):
+    with open(file1) as f1, open(file2) as f2:
+        lines1 = set(f1.readlines())
+        lines2 = set(f2.readlines())
+
+    print("Only in file1:")
+    print(lines1 - lines2)
+
+    print("Only in file2:")
+    print(lines2 - lines1)
+
+compare_files("config1.txt", "config2.txt")
