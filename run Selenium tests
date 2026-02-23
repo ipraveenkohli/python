@@ -1,0 +1,6 @@
+How can you run Selenium tests in headless mode?
+By setting browser options to headless. For Chrome:
+from selenium.webdriver.chrome.options import Options
+options = Options()
+options.headless = True
+driver = webdriver.Chrome(options=options)
