@@ -1,0 +1,11 @@
+Check If Port Is Open
+
+Check If Port Is Open
+
+import socket
+
+def check_port(host, port):
+    # Your code here
+    pass
+
+print(check_port("localhost", 22))
