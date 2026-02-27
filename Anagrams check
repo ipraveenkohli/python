@@ -1,0 +1,7 @@
+Check if Two Strings are Anagrams
+
+def is_anagram(s1, s2):
+    # your code
+    pass
+
+print(is_anagram("listen", "silent"))
