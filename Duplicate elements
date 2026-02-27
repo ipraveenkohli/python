@@ -1,0 +1,9 @@
+Find Duplicate Elements in a List
+
+
+def find_duplicates(nums):
+    # your code
+    pass
+
+nums = [1,2,3,4,2,5,3]
+print(find_duplicates(nums))
