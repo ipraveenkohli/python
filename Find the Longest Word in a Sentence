@@ -1,0 +1,7 @@
+Find the Longest Word in a Sentence
+
+def longest_word(sentence):
+    # your code
+    pass
+
+print(longest_word("Python automation makes DevOps powerful"))
