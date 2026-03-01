@@ -1,0 +1,11 @@
+Implement a Simple Cache
+
+cache = {}
+
+def get_data(key):
+    if key in cache:
+        return cache[key]
+
+    value = expensive_operation()
+    cache[key] = value
+    return value
