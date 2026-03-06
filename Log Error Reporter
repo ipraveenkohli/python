@@ -1,0 +1,13 @@
+Automated Log Error Reporter
+
+import re
+
+def count_errors(file):
+    errors = 0
+    
+    with open(file) as f:
+        for line in f:
+            if re.search("ERROR", line):
+                errors += 1
+
+    return errors
