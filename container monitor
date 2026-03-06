@@ -1,0 +1,14 @@
+Docker Container Status Monitor
+
+import subprocess
+
+def get_containers():
+    result = subprocess.run(
+        ["docker", "ps"],
+        capture_output=True,
+        text=True
+    )
+    
+    print(result.stdout)
+
+get_containers()
