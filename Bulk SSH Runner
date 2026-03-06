@@ -1,0 +1,15 @@
+ Bulk Server SSH Command Runner
+
+import paramiko
+
+servers = ["server1", "server2", "server3"]
+
+def run_command(server, command):
+    ssh = paramiko.SSHClient()
+    ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+    
+    ssh.connect(server, username="user", password="password")
+    stdin, stdout, stderr = ssh.exec_command(command)
+    
+    print(server, stdout.read().decode())
+    ssh.close()
