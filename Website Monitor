@@ -1,0 +1,16 @@
+Website Uptime Monitor
+
+import requests
+import time
+
+urls = ["https://google.com", "https://github.com"]
+
+while True:
+    for url in urls:
+        try:
+            r = requests.get(url, timeout=5)
+            print(url, r.status_code)
+        except:
+            print(url, "DOWN")
+
+    time.sleep(60)
