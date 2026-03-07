@@ -1,0 +1,12 @@
+import os, time
+
+PATH = "/var/log/app_backups"
+DAYS = 7
+seconds = time.time() - (DAYS * 24 * 60 * 60)
+
+for root, dirs, files in os.walk(PATH):
+    for file in files:
+        file_path = os.path.join(root, file)
+        if os.stat(file_path).st_mtime < seconds:
+            os.remove(file_path)
+            print(f"Deleted: {file}")
