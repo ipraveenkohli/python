@@ -1,0 +1,8 @@
+Log Analysis & Reporting
+
+LOG_FILE = "/var/log/app.log"
+with open(LOG_FILE, "r") as f:
+    # Search for critical keywords
+    errors = [line for line in f if "ERROR" in line or "CRITICAL" in line]
+
+print(f"Found {len(errors)} issues today.")
