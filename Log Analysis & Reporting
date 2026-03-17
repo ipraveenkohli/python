@@ -1,4 +1,4 @@
-Log Analysis & Reporting
+#Log Analysis & Reporting
 
 LOG_FILE = "/var/log/app.log"
 with open(LOG_FILE, "r") as f:
