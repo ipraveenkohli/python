@@ -1,4 +1,4 @@
-Check If a Service Is Running (Linux)
+#Check If a Service Is Running (Linux)
 
 
 Write a Python function that checks if a process (e.g., “nginx”) is running on a Linux system.
