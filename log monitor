@@ -1,4 +1,4 @@
-Write a Python script that continuously monitors a log file and prints new lines as they are added.
+#Write a Python script that continuously monitors a log file and prints new lines as they are added.
 
 
 import time
