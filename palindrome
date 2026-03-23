@@ -1,4 +1,4 @@
-Write a program in Python to determine whether a number is a palindrome.
+#Write a program in Python to determine whether a number is a palindrome.
 
 def is_palindrome(number):
     return str(number) == str(number)[::-1]
