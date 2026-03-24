@@ -1,4 +1,4 @@
-Remove Duplicate Entries From a Config List
+#Remove Duplicate Entries From a Config List
 def remove_duplicates(servers):
     # Your code here
     pass
