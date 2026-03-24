@@ -1,4 +1,4 @@
-Given a log file, count how many times each log level appears (INFO, WARNING, ERROR).
+#Given a log file, count how many times each log level appears (INFO, WARNING, ERROR).
 
 INFO Server started
 ERROR Database connection failed
