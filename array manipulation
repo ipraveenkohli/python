@@ -1,4 +1,4 @@
-Write a Python function that rotates an array to the right by k steps.
+# Write a Python function that rotates an array to the right by k steps.
 
 Example:
 Input:  arr = [1, 2, 3, 4, 5], k = 2
