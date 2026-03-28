@@ -1,4 +1,4 @@
-flatten a nested list using loops
+#f#latten a nested list using loops
 
 nested_list = [1, [2, 3], [4, 5, 6], 7, [8, 9]]
 
