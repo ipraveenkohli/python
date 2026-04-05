@@ -1,4 +1,4 @@
-#Write a script that checks if an API endpoint is returning HTTP 200. Retry 3 times before failing.
+##Write a script that checks if an API endpoint is returning HTTP 200. Retry 3 times before failing.
 
 import requests
 import time
