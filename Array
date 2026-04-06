@@ -1,4 +1,4 @@
-#Given an array of integers and a number d, the task is to rotate the array to the left by 'd' positions. In left rotation, each element moves one position to the left, and the first element moves to the end of the array.
+##Given an array of integers and a number d, the task is to rotate the array to the left by 'd' positions. In left rotation, each element moves one position to the left, and the first element moves to the end of the array.
 
 Example:
 
