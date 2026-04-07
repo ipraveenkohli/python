@@ -4,4 +4,6 @@ def is_anagram(s1, s2):
     # your code
     pass
 
-print(is_anagram("listen", "silent"))
+print(i    
+
+s_anagram("listen", "silent"))
